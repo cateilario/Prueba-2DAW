@@ -1,9 +1,5 @@
-body{
-    background-color: black;
-}
-
 h1{
-    color: whitesmoke;
+    color: salmon;
 }
 
 .color{
@@ -16,8 +12,20 @@ a{
     color:black;
 }
 
-p{
-    background-color: blue;
+h3{
+    text-align: center;
+    color: royalblue;
+    background-color: beige;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.p{
+    background-color: rgb(117, 117, 212);
     color: whitesmoke;
 }
 
@@ -27,4 +35,11 @@ p{
     box-shadow: 
         5px 5px 20px,
         10px 10px 10px;
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
 }
